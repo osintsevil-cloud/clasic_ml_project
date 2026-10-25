@@ -1,0 +1,49 @@
+# ==== Безопастность ====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==== Данные ====
+data/*
+#!data/README.md
+#!data/metadata.csv
+
+# ==== Модели ====
+models/
+*.joblib
+*.pkl
+*.h5
+*.pt
+
+# ==== Виртуальное окружение ====
+.venv/
+venv/
+env/
+
+# ==== Кэш и сборка Python ====
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==== Jupyter ====
+.ipynb_checkpoints/
+
+# Редакторы и IDE
+.idea/
+
+# ==== macOS ====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Логи и временные файлы =====
+*.log
+*.tmp
